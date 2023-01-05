@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(182, 181, 181);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px;
+    color:black;
+}
+a:hover{
+    border-bottom: 3px solid red;
+    color: red;
+}
+a:focus{
+    border-bottom: 3px solid red;
+    color: red;
+}
